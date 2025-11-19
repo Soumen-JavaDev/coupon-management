@@ -1,0 +1,14 @@
+server:
+  # Default port for local development
+  port: 8080
+
+spring:
+  jackson:
+    # Use ISO date format instead of timestamps for clarity
+    serialization:
+      WRITE_DATES_AS_TIMESTAMPS: false
+
+  # Enables hot reload if DevTools is added
+  devtools:
+    restart:
+      enabled: true
